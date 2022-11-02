@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* Header Section Style Start Here */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.header {
+  background-color: #dddddd;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brand-logo {
+  width: 140px;
+}
+.brand-logo a img {
+  width: 100%;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 9px;
+}
+nav ul li a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 7px;
+}
+nav ul li a:hover {
+  cursor: pointer;
+  border-bottom: 4px solid dodgerblue;
+}
+.btn {
+  padding: 15px 25px;
+  border-radius: 4px;
+  background-color: dodgerblue;
+  color: #fff;
+  text-decoration: none;
+}
+.active {
+  border-bottom: 4px solid dodgerblue;
+}
+.btn:hover {
+  transition: 0.4s all ease-in-out;
+  background-color: rgb(1, 100, 199);
+  color: #ffff;
+}
+/* Header Section Style End Here */
+
+/* Home Section Design Start Here */
+.home-details h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 20px 0;
+}
+.home-details p {
+  letter-spacing: 1.5;
+  text-align: justify;
+}
+/* Home Section Design End Here */
+
+/* About Section Start Here */
+.about {
+  padding: 25px 0px;
+}
+.title {
+  margin-top: 30px;
+}
+.title .main-title {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.sub-title {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.description {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.description .image img {
+  width: 480px;
+}
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+.btn-sec {
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+}
+/* About Section Start End */
+/* Blog Section Start Here */
+.card {
+  width: 360px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 20px 0px;
+  position: relative;
+  /* box-shadow: 2px 2px 4px rgba(218, 218, 218, 0.945),
+    -2px -2px 4px rgba(218, 218, 218, 0.945); */
+}
+.card-img img {
+  width: 100%;
+}
+
+.card-btn {
+  color: #fff;
+  background-color: blueviolet;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 5px;
+  width: 45%;
+  padding: 10px 0px;
+  position: absolute;
+  z-index: 1000;
+  margin-top: -30px;
+  margin-left: 24%;
+}
+.card-details .card-title h1 {
+  margin-top: 30px;
+}
+.read-more {
+  width: 50%;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 25%;
+  cursor: pointer;
+}
+.blog-posts {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+/* .post-tilte h1 {
+  text-align: center;
+  margin: 20px 0;
+} */
+
+/* Blog Section End Here */
+
+/* Single Blog Post Design Start Here */
+
+.blog-posts {
+  padding: 40px 0px;
+  color: #000;
+  letter-spacing: 1.5;
+  position: relative;
+}
+.b-title {
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+.b-details {
+  text-align: justify;
+  margin-bottom: 30px;
+}
+.b-image {
+  position: relative;
+  display: block;
+  margin: 30px 0;
+}
+.b-image img {
+  width: 60%;
+  display: block;
+  margin-left: 210px;
+}
+.b-list {
+  margin: 30px 0;
+}
+.b-short-details h1 {
+  font-size: 34px;
+  margin: 20px 0;
+}
+.b-short-details p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+a {
+  text-decoration: none;
+}
+/* Single Blog Post Design End Here */
+
+/* Contact Section Design Start Here */
+.con-descripton h1 {
+  font-size: 25px;
+  margin: 30px 0;
+}
+.con-descripton p {
+  letter-spacing: 1.5;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+/* Contact Section Design End Here */
+
+/* Footer Section Style Start Here */
+footer hr {
+  opacity: 0.8;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 0px;
+}
+.social-links i {
+  font-size: 25px;
+  padding: 15px 25px;
+  color: dodgerblue;
+}
+.desc {
+  width: 750px;
+}
+.desc p {
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 15px;
+}
+/* .desc span {
+  margin: 15px auto;
+  font-weight: 400;
+  font-size: 16px;
+} */
+
+/* Footer Section Style End Here */
